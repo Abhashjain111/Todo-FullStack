@@ -1,39 +1,39 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fcb9f3; /* Light gray background for the whole app */
+  margin: 0;
+  padding: 0;
+}
+
+/* App container */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #340a35; /* Blue background for header */
+  color: white; /* White text color */
+  width: 100%; /* Full width */
+  border-radius: 8px;
+  margin-bottom: 20px; /* Space below header */
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+/* List styles */
+.ant-list {
+  border-radius: 8px; /* Rounded corners for the todo list */
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+/* Button styles */
+.ant-btn {
+  border-radius: 8px; /* Rounded corners for buttons */
 }
